@@ -1,0 +1,75 @@
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+
+  background: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Showcard Gothic Regular';
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+hr {
+  color: white;
+  box-shadow: white 1px 1px 10px;
+}
+
+main {
+  height: 80%;
+  margin: auto 10%;
+  padding: 0.55%;
+
+  font-family: 'MS Sans Serif';
+  font-size: 20px;
+}
+
+footer {
+  height: 10%;
+  margin: auto 10%;
+
+  border: 1px solid black;
+  background: lightgrey;
+}
+
+.section {
+  height: fit-content;
+  margin: auto 10%;
+
+  border: 1px solid black;
+  background: white;
+  box-shadow: inset 0px 10px 20px white;
+}
+
+.actorBox {
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #c7d0df;
+  border: 1px solid black;
+}
+
+.actorBox:hover {
+  box-shadow: -5px 5px 0px black;
+}
+
+.actorBox img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#actors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  height: 90%;
+  margin-bottom: 2%;
+}
